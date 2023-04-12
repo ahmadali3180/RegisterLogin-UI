@@ -8,7 +8,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Title-->
+        <!--RavalBit-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="RegisterViewController" customModule="RegisterLoginUI" customModuleProvider="target" sceneMemberID="viewController">
@@ -131,13 +131,13 @@
                             <constraint firstItem="ZMq-Ef-ml7" firstAttribute="top" secondItem="KTu-pX-d5I" secondAttribute="bottom" constant="42" id="wwQ-SL-nFs"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="Title" largeTitleDisplayMode="always" id="JMG-n3-Gb0"/>
+                    <navigationItem key="navigationItem" title="RavalBit" largeTitleDisplayMode="always" id="JMG-n3-Gb0"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="841.9847328244274" y="2.8169014084507045"/>
         </scene>
-        <!--Title-->
+        <!--RavalBit-->
         <scene sceneID="1b6-2r-u8U">
             <objects>
                 <viewController id="V41-s3-FNO" customClass="LoginViewController" customModule="RegisterLoginUI" customModuleProvider="target" sceneMemberID="viewController">
@@ -224,7 +224,9 @@
                             <constraint firstItem="uEf-i0-MSu" firstAttribute="centerY" secondItem="vKW-ID-BnV" secondAttribute="centerY" constant="114" id="yfA-6c-bZw"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="Title" largeTitleDisplayMode="always" id="lwB-WS-Q4X"/>
+                    <navigationItem key="navigationItem" title="RavalBit" leftItemsSupplementBackButton="YES" largeTitleDisplayMode="always" id="lwB-WS-Q4X">
+                        <barButtonItem key="backBarButtonItem" title="Back" id="60r-g9-nBQ"/>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tSZ-SS-pTe" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -245,6 +247,7 @@
                         </textAttributes>
                         <textAttributes key="largeTitleTextAttributes">
                             <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <color key="textShadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         </textAttributes>
                         <navigationBarAppearance key="standardAppearance"/>
                     </navigationBar>
