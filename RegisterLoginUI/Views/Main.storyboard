@@ -169,8 +169,8 @@
                                     </textField>
                                 </subviews>
                             </stackView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" usesAttributedText="YES" lineBreakMode="headTruncation" baselineAdjustment="alignBaselines" showsExpansionTextWhenTruncated="YES" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ytp-0c-JzL">
-                                <rect key="frame" x="100" y="237" width="193" height="48.666666666666629"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="headTruncation" baselineAdjustment="alignBaselines" showsExpansionTextWhenTruncated="YES" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ytp-0c-JzL">
+                                <rect key="frame" x="100" y="232.33333333333334" width="193" height="48.666666666666657"/>
                                 <rect key="contentStretch" x="0.40000000000000002" y="0.0" width="0.0" height="0.0"/>
                                 <attributedString key="attributedText">
                                     <fragment content="Log In">
@@ -209,6 +209,7 @@
                         <viewLayoutGuide key="safeArea" id="bUS-8x-R5H"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="New-OA-hAl" firstAttribute="top" secondItem="Ytp-0c-JzL" secondAttribute="bottom" constant="20" id="1k5-Xx-0uf"/>
                             <constraint firstItem="New-OA-hAl" firstAttribute="leading" secondItem="bUS-8x-R5H" secondAttribute="leading" constant="40" id="BeM-xM-iNH"/>
                             <constraint firstAttribute="bottom" secondItem="Ph0-cw-ixJ" secondAttribute="bottom" id="e7H-Ia-Uvy"/>
                             <constraint firstItem="Ph0-cw-ixJ" firstAttribute="leading" secondItem="bUS-8x-R5H" secondAttribute="leading" id="g9G-2K-9fe"/>
